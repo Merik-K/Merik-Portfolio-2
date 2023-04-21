@@ -1,9 +1,50 @@
+// enabling
+$enable-negative-margins: true;
+
 // Font for Open button
 @font-face {
     font-family: Josh;
-    src: url(././Fonts/static/Jost-Regular.ttf);
+    src: url(../../Fonts/static/Jost-Regular.ttf);
 }
 
+// starting button
 .openButton {
     font-family: Josh;
+}
+
+// List buttons
+.listOptions {
+    display: flex;
+    // flex-direction: row;
+    // align-items: center;
+}
+
+.list {
+    list-style: none;
+    font-family: Josh;
+}
+
+// Navbar
+.navoptions {
+    display: flex;
+
+}
+
+// home page
+.homePage {
+    display: flex;
+}
+
+// About page
+.aboutTitle {
+    display: flex;
+}
+
+.space {
+    margin-left: .5rem;
+}
+
+.buttonOption {
+    width: 5rem;
+    height: 5rem;
 }

@@ -1,7 +1,37 @@
 @font-face {
   font-family: Josh;
-  src: url(././Fonts/static/Jost-Regular.ttf);
+  src: url(../../Fonts/static/Jost-Regular.ttf);
 }
 .openButton {
   font-family: Josh;
+}
+
+.listOptions {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  font-family: Josh;
+}
+
+.navoptions {
+  display: flex;
+}
+
+.homePage {
+  display: flex;
+}
+
+.aboutTitle {
+  display: flex;
+}
+
+.space {
+  margin-left: 0.5rem;
+}
+
+.buttonOption {
+  width: 5rem;
+  height: 5rem;
 }/*# sourceMappingURL=main.css.map */
