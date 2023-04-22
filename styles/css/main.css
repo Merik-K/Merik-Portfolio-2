@@ -13,17 +13,10 @@
 .list {
   list-style: none;
   font-family: Josh;
+  cursor: pointer;
 }
 
 .navoptions {
-  display: flex;
-}
-
-.homePage {
-  display: flex;
-}
-
-.aboutTitle {
   display: flex;
 }
 
@@ -32,6 +25,13 @@
 }
 
 .buttonOption {
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+}
+
+.homeTitle {
+  display: flex;
+}
+
+.aboutTitle {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

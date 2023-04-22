@@ -1,3 +1,6 @@
+// variables
+$main-color: #4169E1;
+
 // enabling
 $enable-negative-margins: true;
 
@@ -17,26 +20,17 @@ $enable-negative-margins: true;
     display: flex;
     // flex-direction: row;
     // align-items: center;
+
 }
 
 .list {
     list-style: none;
     font-family: Josh;
+    cursor: pointer;
 }
 
 // Navbar
 .navoptions {
-    display: flex;
-
-}
-
-// home page
-.homePage {
-    display: flex;
-}
-
-// About page
-.aboutTitle {
     display: flex;
 }
 
@@ -45,6 +39,15 @@ $enable-negative-margins: true;
 }
 
 .buttonOption {
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+}
+
+// home page
+.homeTitle {
+    display: flex;
+}
+
+// About page
+.aboutTitle {
+    display: flex;
 }
