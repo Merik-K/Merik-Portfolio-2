@@ -10,44 +10,51 @@ $enable-negative-margins: true;
     src: url(../../Fonts/static/Jost-Regular.ttf);
 }
 
+// Font for navBar and Name
+@font-face {
+    font-family: bungiee;
+    src: url(../../Fonts/BungeeSpice-Regular.ttf);
+}
+
+body {
+    background: rgb(255, 166, 40);
+    background: radial-gradient(circle, rgba(255, 166, 40, 1) 0%, rgba(255, 37, 37, 1) 100%);
+}
+
 // starting button
+.start {
+    display: flex;
+    justify-content: center;
+    // margin-right: 19rem;
+    height: 5rem;
+    align-items: flex-end;
+}
+
 .openButton {
     font-family: Josh;
 }
 
-// List buttons
+.name {
+    font-family: bungiee;
+    font-size: 3rem;
+}
+
+img {
+    height: 30rem;
+}
+
+// navBar
 .listOptions {
     display: flex;
     // flex-direction: row;
     // align-items: center;
 
+
 }
+
 
 .list {
     list-style: none;
-    font-family: Josh;
+    font-family: bungiee;
     cursor: pointer;
-}
-
-// Navbar
-.navoptions {
-    display: flex;
-}
-
-.space {
-    margin-left: .5rem;
-}
-
-.buttonOption {
-    width: 4.5rem;
-}
-
-// home page
-.homeTitle {
-    display: flex;
-}
-
-// About page
-.aboutTitle {
-    display: flex;
 }

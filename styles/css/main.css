@@ -2,8 +2,33 @@
   font-family: Josh;
   src: url(../../Fonts/static/Jost-Regular.ttf);
 }
+@font-face {
+  font-family: bungiee;
+  src: url(../../Fonts/BungeeSpice-Regular.ttf);
+}
+body {
+  background: rgb(255, 166, 40);
+  background: radial-gradient(circle, rgb(255, 166, 40) 0%, rgb(255, 37, 37) 100%);
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  align-items: flex-end;
+}
+
 .openButton {
   font-family: Josh;
+}
+
+.name {
+  font-family: bungiee;
+  font-size: 3rem;
+}
+
+img {
+  height: 30rem;
 }
 
 .listOptions {
@@ -12,26 +37,6 @@
 
 .list {
   list-style: none;
-  font-family: Josh;
+  font-family: bungiee;
   cursor: pointer;
-}
-
-.navoptions {
-  display: flex;
-}
-
-.space {
-  margin-left: 0.5rem;
-}
-
-.buttonOption {
-  width: 4.5rem;
-}
-
-.homeTitle {
-  display: flex;
-}
-
-.aboutTitle {
-  display: flex;
 }/*# sourceMappingURL=main.css.map */
