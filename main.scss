@@ -16,9 +16,12 @@ $enable-negative-margins: true;
     src: url(../../Fonts/BungeeSpice-Regular.ttf);
 }
 
-body {
-    background: rgb(255, 166, 40);
-    background: radial-gradient(circle, rgba(255, 166, 40, 1) 0%, rgba(255, 37, 37, 1) 100%);
+.intro {
+    margin: {
+        top: 11rem;
+        bottom: 14rem;
+    }
+
 }
 
 // starting button
@@ -40,7 +43,7 @@ body {
 }
 
 img {
-    height: 30rem;
+    height: 20rem;
 }
 
 // navBar
@@ -48,13 +51,14 @@ img {
     display: flex;
     // flex-direction: row;
     // align-items: center;
+    background-color: black;
 
 
 }
-
 
 .list {
     list-style: none;
     font-family: bungiee;
     cursor: pointer;
+    border: solid radial-gradient(circle, rgba(255, 166, 40, 1) 0%, rgba(255, 37, 37, 1) 100%) 1rem;
 }
