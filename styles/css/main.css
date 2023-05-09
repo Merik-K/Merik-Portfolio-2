@@ -41,4 +41,9 @@ img {
   font-family: bungiee;
   cursor: pointer;
   border: solid radial-gradient(circle, rgb(255, 166, 40) 0%, rgb(255, 37, 37) 100%) 1rem;
+}
+
+.message {
+  width: 15rem;
+  height: 15rem;
 }/*# sourceMappingURL=main.css.map */

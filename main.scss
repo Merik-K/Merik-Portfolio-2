@@ -24,7 +24,7 @@ $enable-negative-margins: true;
 
 }
 
-// starting button
+// Main page
 .start {
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@ $enable-negative-margins: true;
     height: 5rem;
     align-items: flex-end;
 }
+
 
 .openButton {
     font-family: Josh;
@@ -61,4 +62,10 @@ img {
     font-family: bungiee;
     cursor: pointer;
     border: solid radial-gradient(circle, rgba(255, 166, 40, 1) 0%, rgba(255, 37, 37, 1) 100%) 1rem;
+}
+
+//contact
+.message {
+    width: 15rem;
+    height: 15rem;
 }

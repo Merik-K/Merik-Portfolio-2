@@ -10,7 +10,7 @@
     <script src="jQuery.js"></script>
 
 </head>
-<body>
+<body class="bg-dark text-light">
     <!-- Open button to start portfolio -->
     <div class="buttonContainer">
         <button
@@ -20,7 +20,7 @@
     <div class="start flex-column">
         <div class="listOptions align-items-center justify-content-center w-100 sticky-top flex-column">
             <h1 class="name d-flex justify-content-center w-100">Merik Kuhn</h1>
-            <ul class="d-flex flex-row p-0 justify-content-around w-100">
+            <ul class="d-flex flex-row p-0 justify-content-around w-100 me">
                 <li class="aboutButton list fs-3 border-2 rounded-pill">About Me</li>
                 <br>
                 <li class="experienceButton list fs-3 border-2 rounded-pill">Experience</li>
@@ -43,7 +43,7 @@
         </div>
 
         <!-- About Me Page -->
-        <div class="about">
+        <div class="about d-flex flex-column mx-5">
             <h1 class="d-flex flex-row mx-5 align-items-center">About Me</h1>
             <p class="border border-3 rounded mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Voluptates,
@@ -60,7 +60,7 @@
                 repellat placeat saepe.</p>
         </div>
         <!-- Experience section-->
-        <div class="experience">
+        <div class="experience d-flex flex-column mx-5">
             <h1 class="d-flex flex-row mx-5 align-items-center">My Experience</h1>
             <p class="border border-3 rounded mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Voluptates,
@@ -78,9 +78,10 @@
                 repellat placeat saepe.</p>
         </div>
         <!-- Projects section -->
-        <div class="projects">
+        <div class="projects d-flex flex-column mx-5">
             <h1 class="d-flex flex-row mx-5 align-items-center">Projects</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, dolor, unde illo deserunt quae non
+            <p class="border border-3 rounded mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates, dolor, unde illo deserunt quae non
                 tempora magni, sit excepturi explicabo iusto assumenda eum corrupti corporis repellendus molestias
                 velit.
                 Consectetur officiis culpa quis in illum rem officia cupiditate perspiciatis quidem odit quasi soluta
@@ -93,19 +94,18 @@
                 repellat placeat saepe.</p>
         </div>
         <!-- Contact Me section -->
-        <div class="contact">
-            <h1 class="d-flex flex-row mx-5 align-items-center">Contact Me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, dolor, unde illo deserunt quae non
-                tempora magni, sit excepturi explicabo iusto assumenda eum corrupti corporis repellendus molestias
-                velit.
-                Consectetur officiis culpa quis in illum rem officia cupiditate perspiciatis quidem odit quasi soluta
-                eum
-                velit aliquid ipsam amet, sunt ullam. Sapiente ullam repellat harum fugiat molestias aspernatur, est
-                eligendi laboriosam laudantium, cupiditate maiores at iste voluptates qui. Suscipit assumenda, odit qui,
-                nostrum iusto et quisquam nulla beatae optio tempore libero. Maiores quidem eum vitae, nisi commodi
-                nostrum
-                perspiciatis labore eaque officia soluta inventore voluptatum consectetur debitis delectus voluptas,
-                repellat placeat saepe.</p>
+        <div class="contact d-flex flex-column mx-5">
+            <h1 class="d-flex flex-row mx-5 align-items-center w-100 justify-content-center">Contact Me</h1>
+            <div class="contactlist d-flex justify-content-center align-items-center flex-column">
+                <div class="d-flex flex-row w-100 justify-content-center align-items-center">
+                    <textarea placeholder="Message..." rows="5" cols="50"></textarea>
+                    <ul class="d-flex align-items-center flex-column">
+                        <li><input type="text" placeholder="Name"></li>
+                        <li><input type="text" placeholder="Email"></li>
+                    </ul>
+                </div>
+                <button>Submit</button>
+            </div>
         </div>
     </div>
 
