@@ -65,7 +65,12 @@ img {
 }
 
 //contact
-.message {
-    width: 15rem;
-    height: 15rem;
+.contact {
+    margin-bottom: 1rem;
+
+    .contactlist {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
 }

@@ -43,7 +43,10 @@ img {
   border: solid radial-gradient(circle, rgb(255, 166, 40) 0%, rgb(255, 37, 37) 100%) 1rem;
 }
 
-.message {
-  width: 15rem;
-  height: 15rem;
+.contact {
+  margin-bottom: 1rem;
+}
+.contact .contactlist {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
