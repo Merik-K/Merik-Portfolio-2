@@ -8,7 +8,7 @@
 }
 .intro {
   margin-top: 11rem;
-  margin-bottom: 14rem;
+  margin-bottom: 24rem;
 }
 
 .start {
@@ -47,6 +47,13 @@ img {
   margin-bottom: 1rem;
 }
 .contact .contactlist {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-left: 12vw;
+}
+.contact .contactlist .contactItems {
+  display: flex;
+}
+
+.noReason {
+  background: #212529;
+  height: 15vw;
 }/*# sourceMappingURL=main.css.map */

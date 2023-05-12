@@ -19,7 +19,7 @@ $enable-negative-margins: true;
 .intro {
     margin: {
         top: 11rem;
-        bottom: 14rem;
+        bottom: 24rem;
     }
 
 }
@@ -69,8 +69,21 @@ img {
     margin-bottom: 1rem;
 
     .contactlist {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+
+        // padding-top: 1rem;
+        // padding-bottom: 1rem;
+        margin-left: 12vw;
+
+        .contactItems {
+
+            display: flex;
+        }
     }
 
+}
+
+// empty page
+.noReason {
+    background: #212529;
+    height: 15vw;
 }

@@ -14,25 +14,9 @@ $('.openButton').on('click', function () {
 });
 
 //Makes the About section on appear or onclick
-// $(window).on('scroll', function () {
-//   $('.about').fadeIn(100);
-// });
+$(window).on('scroll', function () {
+  $('.about').fadeIn(1000);
+});
 $('.aboutButton').on('click', function () {
   $('.about').css('display', 'flex');
-});
-
-//Makes the Experience section on appear or onclick
-// $(window).on('scroll', function () {
-//   $('.experience').fadeIn(100);
-// });
-$('.experienceButton').on('click', function () {
-  $('.experience').css('display', 'flex');
-});
-
-//Makes the Experience section on appear or onclick
-// $(window).on('scroll', function () {
-//   $('.projects').fadeIn(100);
-// });
-$('.projectButton').on('click', function () {
-  $('.projects').css('display', 'flex');
 });
