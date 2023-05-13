@@ -12,10 +12,9 @@
 }
 
 .start {
-  display: flex;
-  justify-content: center;
-  height: 5rem;
-  align-items: flex-end;
+  display: none;
+  flex-direction: column;
+  transition: all, 0.5s, ease-in-out;
 }
 
 .openButton {
@@ -56,4 +55,24 @@ img {
 .noReason {
   background: #212529;
   height: 15vw;
+}
+
+.header {
+  color: #00ADB5;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00ADB5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00FFCA;
 }/*# sourceMappingURL=main.css.map */
