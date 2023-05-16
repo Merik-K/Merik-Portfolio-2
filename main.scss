@@ -18,7 +18,7 @@ $enable-negative-margins: true;
 
 .intro {
     margin: {
-        top: 11rem;
+        top: 14rem;
         bottom: 24rem;
     }
 
@@ -27,11 +27,7 @@ $enable-negative-margins: true;
 // Main page
 .start {
     display: none;
-
     flex-direction: column;
-    // margin-right: 19rem;
-    // height: 5rem;
-    // align-items: flex-end;
     transition: all, .5s, ease-in-out;
     // margin-top: 10rem;
     // position: relative;
@@ -98,7 +94,17 @@ img {
     color: #00ADB5;
 }
 
+.header:hover {
+    color: #00FFCA;
+}
+
 // About Section
+.about {
+    margin: {
+        top: 5rem;
+        bottom: 23rem;
+    }
+}
 
 // ScrollBar
 //Width of scrollbar
